@@ -1,0 +1,20 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+}
+
+#board {
+  padding: 1rem;
+  flex: 1 1 auto;
+  overflow: scroll;
+}
+
+h1, form {
+  padding: 1rem;
+  flex: 0 1 auto;
+}
